@@ -4,7 +4,12 @@
 font-size: 1em;}
 
 /*GENERAL*/
-
+.arrow {color: black;
+   font-size: 20px;
+  }
+  .arrow1 {color:white;
+        font-size: 20px;
+       }
 a:hover {
     text-decoration: underline;
     font-size: 18px;}
@@ -37,13 +42,8 @@ padding: 0;
 box-sizing: border-box;}
 /*END-GENERAL*/                                                
 
-/*Container*/                 
-.container{
-        border: 1px solid red;}
-
 /*HEAD-HERO*/
-.header-hero{border: 1px solid red;
-    background-color: rgb(0, 0, 0);
+.header-hero{background-color: rgb(0, 0, 0);
     background-image: url(./img/jumbo.png);
     background-size: 100% 320px;
     margin: 0 auto;
@@ -53,7 +53,6 @@ box-sizing: border-box;}
 
 /*HEAD*/
 #header{width: 1200px;
-    border: 1px solid red;
      margin: 0 auto;
      display: flex;
      align-items: center;
@@ -74,7 +73,6 @@ box-sizing: border-box;}
     text-decoration-line: none;}
 /*HERO*/
 .hero{max-width: 600px;
-      border: 1px solid red;
       margin: 0 auto;
       text-align: center;
       color: white;
@@ -93,64 +91,53 @@ box-sizing: border-box;}
  .button-title2-span{font-size: 1em;}     
 /*PLACE*/
 .place {width: 100%;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     margin: 0 auto;
  }
 
-.left-place{  border: 1px solid red; 
-              width:800px;
+.left-place{  width:800px;
               padding-left: 100px; }
 .img-item1{ width:100%;
             padding-right: 90px;
             height: 350px;}
-.right-place{  border: 1px solid red;
-              width: 400px;
+.right-place{ width: 400px;
             padding-top: 20px;
             padding-right: 90px;}
 
 /*MEET*/
    .meet {background-color: #E5E5E5;
     width: 100%;
-    border: 1px solid red;
      display: flex;
       justify-content: center;
       margin: 0 auto;}
     
-    .left-meet{  border: 1px solid red; 
-                  width: 400px;
+    .left-meet{   width: 400px;
                   padding-top: 30px;
                   padding-left: 150px;}
-    .right-meet{  border: 1px solid red;
-       width: 800px;
+    .right-meet{ width: 800px;
       padding-left: 40px;}
     .img-item2{ width:100%;
       height:300px ;}
 
 /*community*/
     .community {width: 100%;
-            border: 1px solid red;
              display: flex;
               justify-content: center;
               margin: 0 auto;}
-    .left-community{  border: 1px solid red; 
-                          width: 800px;}
-    .right-community{  border: 1px solid red;
-               width: 400px;}
+    .left-community{  width: 800px;}
+    .right-community{ width: 400px;}
      .img-comm{height:300px ;
-     width: 100%;}
+               width: 100%;}
       .community-p-size{padding-right: 90px;}              
 /*tecnology*/
     .tecnology{background-color: #E5E5E5;
                 width: 100%;
-                border: 1px solid red;
                 display: flex;
                 flex-direction: column;
                 margin: 0 auto; }
      
-    .tec-img{border: 1px solid rgb(253, 0, 0);
-             width: 1200px;
+    .tec-img{width: 1200px;
              margin: 0 auto;
              display: flex;
              flex-direction: column;
@@ -161,8 +148,7 @@ box-sizing: border-box;}
     .item4{height: 50%;
           width: 100%;
           padding: 0 130px;}
-    .tec-parag{border: 1px solid rgb(248, 0, 0);
-               width:1200px;
+    .tec-parag{width:1200px;
                margin: 0 auto; 
                display: flex;
                flex-direction: column;
@@ -183,15 +169,13 @@ box-sizing: border-box;}
 /*footer*/
      .footer{ background-color: rgb(35, 39, 42);
               width: 100%;
-              border: 1px solid red;
               display: flex;
               flex-direction: column;
               margin: 0 auto;}
       span{color: white;
            font-size: 0.6em;}
 /*TOP-fOOTER*/   
-     .footer-top{border: 1px solid rgb(253, 0, 0);
-                 width: 1200px;
+     .footer-top{width: 1200px;
                  margin: 0 auto;
                  padding-top: 20px;
                 padding-right: 100px;}
@@ -218,7 +202,13 @@ box-sizing: border-box;}
      .u1{ margin-right: 100px;
           list-style-type: none;}
     .footer-strong{color: #7289DA;}            
-/*BOTTOM-fOOTER*/
+    select {
+        background-color:  rgb(35, 39, 42);
+        border-style: none;
+        color:white
+    }
+
+    /*BOTTOM-fOOTER*/
                       .footer-bottom{
                         border-top: 1px solid #7289DA ;
                         width: 1200px;
