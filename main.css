@@ -4,9 +4,38 @@ body{background-image: url(./img/discord\ htm2\ background.jpg);
  background-position-x: 500px;
 flex-direction: column;}
 
+a:hover {
+  text-decoration:wavy;
+  font-size: 18px;}
+/*Registration*/
 .field{display: flex;
        flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 13%;}
-.join{text-align: center;}
+    margin-top: 13%;
+   border-radius: 20px;
+  border-style: hidden;}
+.join{text-align: center;
+      color: #F5B53C;}
+span{color: #6CE9F7;}
+ 
+ .submit-button{background-color: #FA7EFF;
+                 border-radius: 30px;
+                 border-color: #F5B53C}
+
+  .submit{text-align: center;
+     padding-top:20px;}
+/*BOTTOM-fOOTER*/
+.footer-bottom{
+  border-top: 1px solid #7289DA ;
+  width: 1350px;
+  margin: 350px auto;
+   display: flex;
+ justify-content: space-between;
+ padding: 20px 20px;
+   border-radius: 30px;
+  border-color: #F5B53C}
+  .button{text-decoration-line: none;}
+  .tec-button{border-radius: 30px;
+                  border-color: #F5B53C;
+                  color:#FA7EFF;}
